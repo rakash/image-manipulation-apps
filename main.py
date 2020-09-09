@@ -1,8 +1,3 @@
-# web-app for API image manipulation
-
-## docker and deploy --- https://cloud.google.com/kubernetes-engine/docs/tutorials/hello-app
-## opencv wont run on std app engine, so check this - https://stackoverflow.com/questions/14217858/can-i-use-open-cv-with-python-on-google-app-engine/14217913
-
 from flask import Flask, request, render_template, send_from_directory
 import numpy as np
 import os
