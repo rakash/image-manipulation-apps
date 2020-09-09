@@ -22,36 +22,31 @@ The API includes three Python files:
 GET /flip/<mode>/<filename>
 ```
 where `mode` can either be `vertical` or `horizontal` and `filename` is the image file name, including extension and relative to the images folder. Browser input example:
-```
-http://127.0.0.1:5000/flip/vertical/minimalistic-coca-cola_00411260.jpg
-```
-![flip](https://user-images.githubusercontent.com/29493411/27295171-3b04a502-551c-11e7-82b1-9283f49a050d.PNG)
+
+![](https://github.com/rakash/image-manipulation-apps/blob/master/flip.png?raw=true)
 
 ### Rotate
 ``` http
 GET /rotate/<angle>/<filename>
 ```
 where `angle` can take any value between 0 and 359 degrees. A positive value indicates clockwise rotation, whereas a negative one indicates counter-clockwise rotation. `filename` is the image file name, including extension and relative to the images folder. Browser input example:
-```
-http://127.0.0.1:5000/rotate/30/Star-War-l.jpg
-```
-![rotate](https://user-images.githubusercontent.com/29493411/27295173-3b07127e-551c-11e7-89e6-d76a4fee731e.PNG)
 
-### Crop
-``` http
-GET /crop/<x1>/<y1>/<x2>/<y2>/<filename>
-```
-with the start and stop point coordinates, (`x1, y1`) and (`x2, y2`), respectively. `filename` is the image file name, including extension and relative to the images folder. Browser input example:
-
-### Blend
-``` http
-GET /blend/<alpha>/<filename1>/<filename2>
-```
-where `alpha`, in % (between 0 and 100), is the weight of the first image in the blend. `filename1` and `filename2` specify the images to blend. If one of them is in gray scale, the other one will be converted automatically. Antialias resizing is also done behind the curtains. Browser input example:
+![](https://github.com/rakash/image-manipulation-apps/blob/master/rotate.png?raw=true)
 
 ### Scan
 
 Upload the image and hit scan and get a scanned image.
+
+![](https://github.com/rakash/image-manipulation-apps/blob/master/scannes.png?raw=true)
+
+
+### Crop
+
+with the start and stop point coordinates, (`x1, y1`) and (`x2, y2`), respectively. `filename` is the image file name, including extension and relative to the images folder. Browser input example:
+
+### Blend
+
+where `alpha`, in % (between 0 and 100), is the weight of the first image in the blend. `filename1` and `filename2` specify the images to blend. If one of them is in gray scale, the other one will be converted automatically. Antialias resizing is also done behind the curtains. Browser input example:
 
 
 ## Web application
