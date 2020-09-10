@@ -3,7 +3,7 @@
 
 # Image Manipulation App
 
-![The App](https://the-image-app.et.r.appspot.com/) has been tested with jpg, png and bmp formats and is able to flip, rotate and crop an image, as well as blending two images, either RGB or gray scale and also scan images. 
+The App - (https://the-image-app.et.r.appspot.com/) has been tested with jpg, png and bmp formats and is able to flip, rotate and crop an image, as well as blending two images, either RGB or gray scale and also scan images. 
 
 Works fine. may not work now due to deployment issues.
 
